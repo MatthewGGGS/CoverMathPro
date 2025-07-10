@@ -2,7 +2,7 @@ workflows:
   android-build:
     name: Build Android APK
     environment:
-      flutter: "3.10.6"  # ✅ Compatível com AGP 7.3.0
+      flutter: "3.13.9"  # ✅ Compatível com AGP 7.3.0
     scripts:
       - name: Get dependencies
         script: flutter pub get
